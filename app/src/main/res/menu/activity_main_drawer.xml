@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home
+            " />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/linechart"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/myfavorites"
+            android:title="My Favorites" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/newrecipe"
+            android:title="New Recipe" />
+        <item
+            android:id="@+id/nav_slidesho"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Recently Viewed" />
+    </group>
+
+    <item android:title="Recently viewed"
+        android:icon="@drawable/ic_menu_manage">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="facebook" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="share" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+
+</menu>

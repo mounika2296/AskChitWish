@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="zoomin" type="id" />
+    <item name="zoomout" type="id" />
+    <item name="imageButton" type="id" />
+</resources>
